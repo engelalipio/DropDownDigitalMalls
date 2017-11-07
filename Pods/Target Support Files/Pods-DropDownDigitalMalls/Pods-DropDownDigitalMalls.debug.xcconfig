@@ -1,0 +1,13 @@
+ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO
+FRAMEWORK_SEARCH_PATHS = $(inherited) "$PODS_CONFIGURATION_BUILD_DIR/AZSClient" "$PODS_CONFIGURATION_BUILD_DIR/Bolts" "$PODS_CONFIGURATION_BUILD_DIR/MicrosoftAzureMobile" "$PODS_CONFIGURATION_BUILD_DIR/Parse" "$PODS_CONFIGURATION_BUILD_DIR/ParseUI" "$PODS_CONFIGURATION_BUILD_DIR/ProjectOxfordFace"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(SDKROOT)/usr/include/libxml2
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+OTHER_CFLAGS = $(inherited) -iquote "$PODS_CONFIGURATION_BUILD_DIR/AZSClient/AZSClient.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/Bolts/Bolts.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/MicrosoftAzureMobile/MicrosoftAzureMobile.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/Parse/Parse.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/ParseUI/ParseUI.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/ProjectOxfordFace/ProjectOxfordFace.framework/Headers"
+OTHER_LDFLAGS = $(inherited) -framework "AZSClient" -framework "Bolts" -framework "MicrosoftAzureMobile" -framework "Parse" -framework "ParseUI" -framework "ProjectOxfordFace"
+PODS_BUILD_DIR = $BUILD_DIR
+PODS_CONFIGURATION_BUILD_DIR = $PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_ROOT = ${SRCROOT}/Pods
+SWIFT_INCLUDE_PATHS[sdk=iphoneos*] = $(SRCROOT)/Pods/AZSClient/asl/iphoneos
+SWIFT_INCLUDE_PATHS[sdk=iphonesimulator*] = $(SRCROOT)/Pods/AZSClient/asl/iphonesimulator
+SWIFT_INCLUDE_PATHS[sdk=macosx*] = $(SRCROOT)/Pods/AZSClient/asl/macosx

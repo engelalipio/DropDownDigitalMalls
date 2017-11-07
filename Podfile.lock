@@ -1,0 +1,29 @@
+PODS:
+  - AZSClient (0.2.2)
+  - Bolts/Tasks (1.3.0)
+  - MicrosoftAzureMobile (3.3.0)
+  - Parse (1.9.0):
+    - Bolts/Tasks (>= 1.3.0)
+  - ParseUI (1.1.6):
+    - Bolts/Tasks (~> 1.2)
+    - Parse (~> 1.8)
+  - ProjectOxfordFace (1.0)
+
+DEPENDENCIES:
+  - AZSClient
+  - MicrosoftAzureMobile
+  - Parse
+  - ParseUI
+  - ProjectOxfordFace
+
+SPEC CHECKSUMS:
+  AZSClient: 469db5162a0e59cc764715b233794e26ade29736
+  Bolts: 805a4a87413e49d4a0c2b7d469084cbc46b09342
+  MicrosoftAzureMobile: 08e10f8277b8ce7b55a54f3c96872e075d5041d5
+  Parse: 712efbc476d4f47b0f96b70db7e53101575753aa
+  ParseUI: 8a22e448c03f825203d8c379c80523517f68baa3
+  ProjectOxfordFace: 6ee1f7b0a39b5d1cba20cf100d8f9d11ad264790
+
+PODFILE CHECKSUM: 0865466709fa69c02a8302209f92046b04364916
+
+COCOAPODS: 1.1.1
